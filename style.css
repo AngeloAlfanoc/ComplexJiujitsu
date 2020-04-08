@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  overflow-x:hidden;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  font-size: 4rem !important;
+}
+
+nav {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .7rem;
+  font-weight: bold;
+  
+}
+header {
+  height:145vh;
+}
+
+.head-img {
+    background-image: url("./img/head-img-1.jpeg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-img::after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #000000dc, #000000bd);
+  opacity: .7;
+}
+
+footer {
+  background:#000000;
+  height: 650px;
+  color:#fff;
+}
+
+.TopBar {
+  z-index: 50;
+  position: absolute;
+  margin: 0 auto;
+  width:100vw;
+  top:15px;
+  left:0;
+}
+.HeaderInnerText{
+  color:#fff;
+  z-index: 50;
+  position: absolute;
+  width:100vw;
+  top:250px;
+  left:0;
+  margin:0 auto;
+  left:15%;
+}
+
+.button-black {
+  background:#000;
+  color: #fff;
+  font-size: 25px;
+  border:0;
+}
+.button-white {
+  background:#fff;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  border:0;
+  height:40px;
+  width:200px;
+}
+
+.logo {
+  width:100px;
+  height:100px;
+}
+
+
+
+.head-box-container {
+  position: relative;
+  top:-4rem;
+  z-index: 51;
+  
+}
+.head-box {
+  height:400px;
+  background:#0D0D0D;
+  color:#fff;
+  padding:1%;
+}
+.head-box-outer{
+  margin:5px;
+  background:#000;
+}
+p{
+  font-size: .8rem;
+}
+
+.about {
+  background-image: url("./img/about-img.jpeg");
+  height: 20vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.schedule {
+  background-image: url("./img/schedule-img.jpeg");
+  height: 20vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.media {
+  background-image: url("./img/media-img.jpeg");
+  height: 20vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.location {
+  background-image: url("./img/location-img.jpg");
+  height: 20vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  background-image: url("./img/contact-img.jpeg");
+  height: 20vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
